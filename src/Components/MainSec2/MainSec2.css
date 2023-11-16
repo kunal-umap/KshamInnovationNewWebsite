@@ -1,0 +1,42 @@
+.MainSec2 {
+    position: relative;
+    min-height: 90vh;
+}
+.Sec2Heading {
+    text-align: center;
+    font-size: 56px;
+    color: #222222;
+    font-weight: 700;
+    line-height: 76px;
+}
+.Sec2Circle {
+    position: absolute;
+    z-index: -5;
+    background: #f9c93a46;
+    height: 150vh;
+    width: 160vh;
+    border-radius: 50%;
+    right: -16vh;
+    top: -80px;
+}
+
+.Sec2Data {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.Sec2Image {
+    max-width: 30vw;
+    padding: 6vw;
+}
+
+.Sec2text > ul {
+    padding: 30px;
+}
+.Sec2text > ul > li{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 60px;
+}

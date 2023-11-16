@@ -1,0 +1,106 @@
+.MainSec3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Sec3Left {
+    flex: 1;
+    padding: 8vw;
+}
+.Sec3Head {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+}
+.Sec3Text {
+    margin-bottom: 60px;
+}
+.Sec3Text > p{
+    font-size: 26px;
+    line-height: 60px;
+    font-weight: 500;
+    margin-bottom: 22px;
+}
+.Sec3btn {
+    text-decoration: none;
+    color: #222222;
+    font-weight: 700;
+    font-size: 32px;
+    background: #F9C83A;
+    border-radius: 35px;
+    padding: 12px 40px 12px 40px;
+}
+
+.Sec3Right {
+    flex: 1;
+    display: flex;
+}
+
+.lCard {
+    flex: 1;
+}
+.rCard {
+    flex: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Card {
+    max-width: 332px;
+    padding: 12px;
+    margin: 8px;
+    background: #222222;
+    border-radius: 12px;
+}
+.cardImage {
+    margin: 16px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 49px;
+    width: 49px;
+    background: #F9C83A;
+    border-radius: 50%;
+}
+.cardHeading {
+    font-weight: 700;
+    color: #F9C83A;
+    font-size: 22px;
+    line-height: 40px;
+    margin: 8px;
+    padding: 12px;
+    padding-top: 0px;
+}
+
+.Card > ul {
+    margin-top: 8px;
+    padding-top: 0px;
+}
+.Card > ul > li {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 35px;    
+}
