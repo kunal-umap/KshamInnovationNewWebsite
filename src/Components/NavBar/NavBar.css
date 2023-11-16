@@ -1,0 +1,29 @@
+.logo {
+    height: 88px;
+    width: 178px;
+}
+.NavBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: #00000037 2px 2px 4px;
+}
+.NavLeft {
+    flex: 1.8;
+}
+.NavRight {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 8px;
+    margin-right: 22px;
+}
+.NavRight a {
+    padding: 12px;
+    color: #000;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 25.78px;
+}
