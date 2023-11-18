@@ -1,0 +1,16 @@
+.Sec5Head {
+    text-align: center;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 76px;
+}
+.sec5Top {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.sec5bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

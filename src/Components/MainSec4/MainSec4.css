@@ -2,7 +2,7 @@
     position: relative;
     min-height: 90vh;
     text-align: center;
-    max-height: 100vh;
+    min-height: 100vh;
 }
 
 .MainSec4Heading {
@@ -18,12 +18,12 @@
     max-width: 1039px;
 }
 .sec4circle {
-    top: -5vh;
+    top: -15vh;
     left: -20vh;
     z-index: -3;
     position: absolute;
     height: 110vh;
-    max-height: 70vw;
+    min-height: 60vw;
     aspect-ratio: 1/1;
     background: #f9c93a46;
     border-radius: 50%;
