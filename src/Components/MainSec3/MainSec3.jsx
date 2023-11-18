@@ -1,5 +1,6 @@
 import React from 'react'
 import './MainSec3.css'
+import Sec3Card from '../Sec3Card/Sec3Card'
 
 
 export default function MainSec3() {
@@ -18,20 +19,15 @@ export default function MainSec3() {
         </div>
         <div className="Sec3Right">
           <div className="lCard">
-              <div className="Card">
-                <div className="cardImage">
-                  <img src="" alt="G" />
-                </div>
-                <h3 className="cardHeading">Glasses for Deaf & Hard of hearing</h3>
-                <ul>
-                  <li>Patented Dome Bone Conduction Transducer </li>
-                  <li>Five arrays of Microphones </li>
-                  <li>Bluetooth 5.2 & Rechargeable</li>
-                </ul>
-              </div>
+              <Sec3Card/>
+              <div className="midSpace"></div>
+              <Sec3Card/>
           </div>
           <div className="rCard">
-
+              <div className="space1"></div>
+              <Sec3Card/>
+              <div className="midSpace"></div>
+              <Sec3Card/>
           </div>
         </div>
     </div>

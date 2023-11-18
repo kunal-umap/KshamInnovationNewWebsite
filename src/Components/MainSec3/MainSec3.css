@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    min-height: 90vh;
 }
 .Sec3Left {
     flex: 1;
@@ -32,8 +33,9 @@
 }
 
 .Sec3Right {
-    flex: 1;
+    flex: 1.2;
     display: flex;
+    justify-content: center;
 }
 
 .lCard {
@@ -43,64 +45,9 @@
     flex: 1;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.Card {
-    max-width: 332px;
-    padding: 12px;
-    margin: 8px;
-    background: #222222;
-    border-radius: 12px;
+.space1 {
+    height: 80px;
 }
-.cardImage {
-    margin: 16px;
-    margin-left: 20px;
-    margin-bottom: 0;
-    margin-top: 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 49px;
-    width: 49px;
-    background: #F9C83A;
-    border-radius: 50%;
-}
-.cardHeading {
-    font-weight: 700;
-    color: #F9C83A;
-    font-size: 22px;
-    line-height: 40px;
-    margin: 8px;
-    padding: 12px;
-    padding-top: 0px;
-}
-
-.Card > ul {
-    margin-top: 8px;
-    padding-top: 0px;
-}
-.Card > ul > li {
-    color: #FFF;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 35px;    
+.midSpace {
+    height: 30px;
 }

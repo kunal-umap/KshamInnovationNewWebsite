@@ -1,0 +1,30 @@
+.MainSec4 {
+    position: relative;
+    min-height: 90vh;
+    text-align: center;
+    max-height: 100vh;
+}
+
+.MainSec4Heading {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #222222;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 76px;
+}
+.sec4vdo {
+    width: 60vw;
+    max-width: 1039px;
+}
+.sec4circle {
+    top: -5vh;
+    left: -20vh;
+    z-index: -3;
+    position: absolute;
+    height: 110vh;
+    max-height: 70vw;
+    aspect-ratio: 1/1;
+    background: #f9c93a46;
+    border-radius: 50%;
+}
