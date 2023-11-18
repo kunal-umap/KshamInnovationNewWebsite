@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+@media screen and (max-width: 700px) {
+  .leftCard {
+    display: none;
+  }
+
+  .rightCard {
+    display: none;
+  }
+}
+
+.carousel-container {
+  text-align: center;
+  font-family: "Poppins", "sans-serif";
+  display: flex;
+  flex-flow: column;
+}
+
+.cards {
+  display: flex;
+  width: 100%;
+}
+
+.card {
+  margin: 5em 2em 0em;
+  border-radius: 24px;
+  background-color: #222222;
+  padding: 2em;
+  width: 35%;
+  height: 200px;
+  flex: 1; /* each card is of equal size */
+  box-shadow: 6px 6px 17px 1px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: 6px 6px 17px 1px rgba(0, 0, 0, 0.36);
+}
+
+.leftCard {
+  margin-right: -15em;
+  margin-top: 7em;
+}
+
+.rightCard {
+  margin-left: -15em;
+  margin-top: 7em;
+}
+
+.active {
+  z-index: 1;
+  height: 250px;
+  background-image: url("../../assets/Sgvs/quote-left.svg"), url("../../assets/Sgvs/quote-right.svg");
+  background-repeat: no-repeat;
+  background-position-x: 0, right;
+  background-position-y: 0, bottom;
+  background-size: 30px;
+  background-origin: content-box;
+}
+
+.arrow-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -7em;
+  position: relative;
+}
+
+.arrow {
+  height: 2.3em;
+}
+
+.arrow:active {
+  fill: rgba(250, 250, 250, 0.539);
+}
+
+.name {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #F9C83A;
+  margin-top: 0.5em;
+  margin-bottom: -0.2em;
+}
+
+.testimony {
+  color: #FFFFFF;
+  padding: 0em 3em;
+}
+
+.text {
+  height: 90%;
+  overflow: hidden;
+}
+
+.tracker {
+  display: flex;
+  justify-content: center;
+  height: 2.5em;
+  margin-top: 1em;
+}
+
+.circle {
+  transform: scale(0.3);
+}
+
+.viewAll {
+  background-color: white;
+  border: none;
+  border-radius: 25px;
+  height: 2em;
+  width: 20%;
+  font-weight: bold;
+  margin: 2em auto;
+  box-shadow: 0px 3px 7px 1px rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: 0px 3px 7px 1px rgba(0, 0, 0, 0.36);
+}
+
+.viewAll:hover {
+  background-color: lightgray;
+}
+
+.viewAll:active {
+  background-color: grey;
+}

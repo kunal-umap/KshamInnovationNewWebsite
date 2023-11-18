@@ -1,0 +1,29 @@
+.MainSec6 {
+    position: relative;
+    min-height: 100vh;
+}
+.sec6Head {
+    text-align: center;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 76px;
+}
+.cover {
+    bottom: 0px;
+    position: absolute;
+    z-index: -3;
+    width: 100vw;
+    background: #f9c93a46;
+    height: 50vh;
+    min-height: 350px;
+}
+.ratingContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.starImage {
+    width: 65px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
