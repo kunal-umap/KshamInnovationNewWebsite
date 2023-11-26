@@ -1,0 +1,63 @@
+.AboutSec1 {
+    position: relative;
+    text-align: center;
+}
+.aboutBack {
+    z-index: -3;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    background: #FFD24D;
+    height: 52vh;
+    width: 100vw;
+}
+.AboutPart {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 12px;
+}
+
+.aboutSecHead {
+    flex: .4;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 76px;
+    text-align: center;
+}
+
+.abtCard {
+    flex: .6;
+    margin: 28px;
+    padding: 22px;
+    border-radius: 14px;
+    background-color: #222222;
+}
+
+.abtCard {
+    z-index: 1;
+    background-image: url("../../assets/Sgvs/quote-left.svg"), url("../../assets/Sgvs/quote-right.svg");
+    background-repeat: no-repeat;
+    background-position-x: 0, right;
+    background-position-y: 0, bottom;
+    background-size: 30px;
+    background-origin: content-box;
+}
+.abtCardText {
+    color: #FFFFFF;
+    padding: 28px;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 60px;
+    text-align: center;
+}
+.sec1Text {
+    padding: 28px;
+    font-weight: 625;
+    font-size: 35px;
+    line-height: 76px;
+    margin-top: 0px;
+    margin-left: 28px;
+    margin-right: 28px;
+}

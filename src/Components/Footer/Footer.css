@@ -1,0 +1,49 @@
+.Footer {
+    color: #FFFFFF;
+    background: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.foot1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.fiiterLogo{
+    font-weight: 400;
+    line-height: 33px;
+    font-size: 20px;
+    padding: 18px;
+    height: 50px;
+}
+.copyright {
+    padding: 3px;
+    width: 280px;
+}
+.foot2 {
+    padding: 4px;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 39px;
+}
+.foot2 a {
+    color: #FFFFFF;
+    padding: 8px;
+}
+
+.foot3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialText {
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 39px;
+}
+.social img {
+    width: 48px;
+    padding: 4px;
+}

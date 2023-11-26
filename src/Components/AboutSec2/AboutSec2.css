@@ -1,0 +1,30 @@
+.AboutSec2 {
+    position: relative;
+    margin-top: 0px;
+    padding: 25px;
+    margin: 40px;
+}
+.abthead2 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 76px;
+}
+.abttext {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 60px;
+}
+.abttext span {
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 60px;
+}
+.circleAbtSec2 {
+    position: absolute;
+    height: 47vw;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    background: #ffd34d3e;
+    top: -5vw;
+    left: -10vw;
+}

@@ -6,6 +6,7 @@ import MainSec3 from '../../Components/MainSec3/MainSec3'
 import MainSec4 from '../../Components/MainSec4/MainSec4'
 import MainSec5 from '../../Components/MainSec5/MainSec5'
 import MainSec6 from '../../Components/MainSec6/MainSec6'
+import MainSec7 from '../../Components/MainSec7/MainSec7'
 
 export default function HomePage() {
   return (
@@ -16,6 +17,7 @@ export default function HomePage() {
       <MainSec4/>
       <MainSec5/>
       <MainSec6/>
+      <MainSec7/>
     </div>
   )
 }
