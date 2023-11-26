@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/KshamInnovationNewWebsite/static/css/main.e7821fb2.css",
-    "main.js": "/KshamInnovationNewWebsite/static/js/main.c585a7f3.js",
+    "main.js": "/KshamInnovationNewWebsite/static/js/main.65a38c66.js",
     "static/js/787.339e7d0a.chunk.js": "/KshamInnovationNewWebsite/static/js/787.339e7d0a.chunk.js",
     "static/media/cm.png": "/KshamInnovationNewWebsite/static/media/cm.9707c214736548510a63.png",
     "static/media/media2.png": "/KshamInnovationNewWebsite/static/media/media2.a780a26ab2e98b3e4e82.png",
@@ -20,11 +20,11 @@
     "static/media/chevron-left-solid.svg": "/KshamInnovationNewWebsite/static/media/chevron-left-solid.a09e96c7cc72c4778f8e231fcbc770b8.svg",
     "static/media/circle-solid.svg": "/KshamInnovationNewWebsite/static/media/circle-solid.f283c400ad5fb3837b27dec13927acab.svg",
     "main.e7821fb2.css.map": "/KshamInnovationNewWebsite/static/css/main.e7821fb2.css.map",
-    "main.c585a7f3.js.map": "/KshamInnovationNewWebsite/static/js/main.c585a7f3.js.map",
+    "main.65a38c66.js.map": "/KshamInnovationNewWebsite/static/js/main.65a38c66.js.map",
     "787.339e7d0a.chunk.js.map": "/KshamInnovationNewWebsite/static/js/787.339e7d0a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e7821fb2.css",
-    "static/js/main.c585a7f3.js"
+    "static/js/main.65a38c66.js"
   ]
 }
