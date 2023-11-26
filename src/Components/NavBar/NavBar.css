@@ -6,10 +6,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: #00000037 2px 2px 4px;
+    box-shadow: #00000037 0px 1px 4px;
 }
 .NavLeft {
-    flex: 1.8;
+    flex: 1.4;
 }
 .NavRight {
     flex: 1;

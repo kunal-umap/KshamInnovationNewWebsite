@@ -12,6 +12,7 @@ export default function NavBar() {
         <Link className='a' to={'/'} >Home</Link>
         <Link className='a' to={'/About'} >About</Link>
         <Link className='a' to={'/Contact'} >Contact Us</Link>
+        <a className='a' target='_blank' href="https://kunal-umap.github.io/Morse_converter/">Morse Code</a>
       </div>
     </div>
   )

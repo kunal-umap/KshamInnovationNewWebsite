@@ -2,6 +2,7 @@
 .Card {
     max-width: 332px;
     padding: 12px;
+    min-height: 300px;
     margin: 8px;
     margin-right: 40px;
     background: #222222;
@@ -19,6 +20,9 @@
     width: 49px;
     background: #F9C83A;
     border-radius: 50%;
+}
+.cardImage img{
+    width: 36px;
 }
 .cardHeading {
     font-weight: 700;

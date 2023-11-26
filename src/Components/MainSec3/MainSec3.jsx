@@ -2,6 +2,11 @@ import React from 'react'
 import './MainSec3.css'
 import Sec3Card from '../Sec3Card/Sec3Card'
 
+import eare from '../../assets/cardImg/eare.png';
+import eye from '../../assets/cardImg/eye.png';
+import hand from '../../assets/cardImg/hand.png';
+import spar from '../../assets/cardImg/spar.png';
+
 
 export default function MainSec3() {
   return (
@@ -19,15 +24,38 @@ export default function MainSec3() {
         </div>
         <div className="Sec3Right">
           <div className="lCard">
-              <Sec3Card/>
+              <Sec3Card 
+                imag={eare}
+                heading={"Glasses for Deaf & Hard of hearing"}
+                point1={"Patented Dome Bone Conduction Transducer"}
+                point2={"Five arrays of Microphones "}
+                point3={"Bluetooth 5.2 & Rechargeable"}
+              />
               <div className="midSpace"></div>
-              <Sec3Card/>
+              <Sec3Card
+                imag={hand}
+                heading={"Glasses for Mute"}
+                point1={"Real time sign language to audio conversion"}
+                point2={"Pairs of side camera & speaker."}
+                point3={"Offline processing"}
+              />
           </div>
           <div className="rCard">
               <div className="space1"></div>
-              <Sec3Card/>
+              <Sec3Card
+                imag={eye}
+                heading={"Glasses for Blind"}
+                point1={"Objects & Face Recognition "}
+                point2={"1080p front camera "}
+                point3={"Pair of LIDAR senors"}
+              />
               <div className="midSpace"></div>
-              <Sec3Card/>
+              <Sec3Card
+                imag={spar}
+                heading={"Smart Case"}
+                point1={"Week long battery backup "}
+                point2={"Desktop computer mode."}
+              />
           </div>
         </div>
     </div>
