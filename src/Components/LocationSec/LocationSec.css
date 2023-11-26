@@ -48,4 +48,5 @@
 .locRig iframe {
     min-width: 40vw;
     aspect-ratio: 1.4/1;
+    margin: auto 10px;
 }
