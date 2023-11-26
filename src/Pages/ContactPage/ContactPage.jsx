@@ -3,6 +3,7 @@ import './ContactPage.css'
 import ContactCard from '../../Components/ContactCard/ContactCard'
 import imgcontact from '../../assets/logos/call.png'
 import imgmail from '../../assets/logos/mail.png'
+import LocationSec from '../../Components/LocationSec/LocationSec'
 
 
 export default function ContactPage() {
@@ -29,6 +30,7 @@ export default function ContactPage() {
                 <a href="" className="cont"> abc@gmail.com</a>
             </div>
         </div>
+        <LocationSec />
     </div>
   )
 }

@@ -4,17 +4,21 @@ import HomePage from './Pages/HomePage/HomePage';
 import Footer from './Components/Footer/Footer';
 import AboutPage from './Pages/AboutPage/AboutPage';
 import ContactPage from './Pages/ContactPage/ContactPage';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 
 function App() {
   return (
-    <div className="App">
-      <NavBar/>
-      {/* <HomePage/> */}
-      {/* <AboutPage/> */}
-      <ContactPage />
-      <Footer/>
-    </div>
+
+    <BrowserRouter>
+      <NavBar />
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='/About' element={<AboutPage/>} />
+        <Route path='/Contact' element={<ContactPage/>} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 

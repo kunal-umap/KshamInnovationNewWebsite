@@ -19,6 +19,7 @@ export default function ContactCard() {
                 <img src={cardImg} alt="" />
             </div>
         </div>
+        <button className='formSubmit'>Submit</button>
     </div>
   )
 }

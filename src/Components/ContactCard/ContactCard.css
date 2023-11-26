@@ -59,5 +59,13 @@
     margin: 8px;
     font-weight: 400;
     font-size: 21px;
+}
 
+.formSubmit {
+    background: #F9C83A;
+    padding: 18px 36px;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    border-radius: 36px;
 }

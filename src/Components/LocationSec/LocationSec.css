@@ -1,0 +1,51 @@
+.LocSec {
+    min-height: 90vh;
+    padding: 12px;
+}
+
+.LocHead{
+    padding-left: 28px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 76px;
+}
+
+.mainSec {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.locLef {
+    flex: 1;
+}
+.locLef {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.plc {
+    margin: 12px;
+    padding: 14px;
+    padding-left: 16px;
+}
+.plc h3 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+}
+.plc p {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.locRig {
+    flex: 1;
+}
+
+.locRig iframe {
+    min-width: 40vw;
+    aspect-ratio: 1.4/1;
+}
