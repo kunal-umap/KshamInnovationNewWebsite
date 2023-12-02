@@ -75,3 +75,58 @@
     font-size: 28px;
     font-weight: 700;
 }
+
+@media (max-width: 1025px) {
+    .heroHeading {
+        font-size: 62px;
+        line-height: 76px;
+    }
+    .heroSubHeading > h2 {
+        font-size: 42px;
+    }
+    .heroButton {
+        font-size: 22px;
+    }
+}
+@media (max-width: 1025px) {
+    .heroHeading {
+        font-size: 7vw;
+        line-height: 9vw;
+    }
+    .heroSubHeading > h2 {
+        font-size: 4.6vw;
+    }
+    .heroButton {
+        font-size: 2.8vw;
+    }
+}
+@media (max-width: 1025px) {
+    .heroSection {
+        min-height: 500px;
+    }
+    .heroHeading {
+        padding-left: 10vw;
+        font-size: 5.5vw;
+        line-height: 7vw;
+    }
+    .heroSubHeading > h2 {
+        font-size: 3vw;
+    }
+    .heroButton {
+        font-size: 2.3vw;
+    }
+    .glassImage {
+        top: 4vh;
+    }
+    .heroSubHeading {
+        padding-left: 10vw;
+        
+    }
+    .heroButton {
+        margin-left: 10vw;
+        margin-top: 0px;
+    }
+    .space {
+        height: 30px;
+    }
+}
