@@ -1,6 +1,5 @@
 .MainSec4 {
     position: relative;
-    min-height: 90vh;
     text-align: center;
     min-height: 100vh;
 }
@@ -27,4 +26,29 @@
     aspect-ratio: 1/1;
     background: #f9c93a46;
     border-radius: 50%;
+}
+
+@media (max-width:1012px) {
+    .MainSec4Heading {
+        font-size: 4vw;
+    }
+    .sec4circle {
+        height: 74vw;
+        left: -10vw;
+    }
+    .MainSec4 {
+        min-height: fit-content;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:554px) {
+    .MainSec4Heading{
+        line-height: normal;
+    }
+    .sec4vdo {
+        width: 85vw;
+    }
+    .sec4circle {
+        top: -4vw;
+    }
 }

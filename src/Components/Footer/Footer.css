@@ -47,3 +47,27 @@
     width: 48px;
     padding: 4px;
 }
+@media (max-width: 1112px) {
+    .Footer {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 654px) {
+    .socialText {
+        line-height: normal;
+        font-size: medium;
+    }
+    .foot2 a{
+        font-size: 14px;
+        margin: 0px;
+    }
+    .social img {
+        width: 24px;
+    }
+    .fiiterLogo{
+        height: 32px;
+    }
+    .copyright{
+        font-size: 12px;
+    }
+}

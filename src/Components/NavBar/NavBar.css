@@ -3,8 +3,13 @@
     width: 178px;
 }
 .NavBar {
+    z-index: 10;
+    width: 100vw;
+    background: #FFF;
+    position: sticky;
+    top: 0px;
     max-width: 100vw;
-    overflow: hidden;
+    /* overflow: hidden; */
     display: flex;
     align-items: center;
     justify-content: space-between;

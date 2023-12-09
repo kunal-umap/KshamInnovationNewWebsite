@@ -46,3 +46,47 @@
     padding: 20px;
     text-decoration: none;
 }
+@media (max-width:1012px) {
+    .Sec7Head {
+        font-size: 5vw;
+        line-height: normal;
+    }
+}
+@media (max-width:954px) {
+    .mediaImage{
+        width: 30vw;
+    }
+    .mediaText {
+        font-size: 2.5vw;
+        line-height: normal;
+    }
+    .review{
+        font-size: 1.8vw;
+        line-height: normal;
+    }
+}
+@media (max-width:494px) {
+    .mainData{
+        flex-direction: column;
+        text-align: center;
+    }
+    .mediaImage{
+        width: 40vw;
+        margin-bottom: 0px;
+        padding: 2px;
+        margin: 4px;
+    }
+    .mediaText {
+        font-size: 2.5vw;
+        line-height: normal;
+        margin-bottom: 0px;
+        flex: 1;
+        padding: 8px;
+    }
+    .review{
+        font-size: 1.8vw;
+        line-height: normal;
+        padding: 8px;
+        width: 60vw;
+    }
+}

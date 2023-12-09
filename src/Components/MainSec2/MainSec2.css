@@ -1,6 +1,6 @@
 .MainSec2 {
     position: relative;
-    min-height: 90vh;
+    /* min-height: 90vh; */
 }
 .Sec2Heading {
     text-align: center;
@@ -39,4 +39,34 @@
     font-weight: 400;
     font-size: 28px;
     line-height: 60px;
+} 
+@media (max-width: 1501px) {
+    .Sec2text ul li {
+        font-size: 2vw;
+        line-height: normal;
+    }
+    .Sec2Circle {
+        width: 80vw;
+        height: 75vw;
+        right: -10vw;
+        top: -4vw;
+    }   
+}
+@media (max-width: 1045px) {
+    .Sec2Heading {
+        font-size: 4vw;
+        margin-bottom: 0px;
+        line-height: 2.1vh;
+    }
+    .Sec2text ul {
+        padding-top: 0px;
+    }
+}
+@media (max-width: 364px) {
+   .Sec2text ul {
+    padding: 12px;
+    padding-top: 4px;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+   }
 }

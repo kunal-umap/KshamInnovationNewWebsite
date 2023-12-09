@@ -1,6 +1,7 @@
 
 .Card {
-    max-width: 332px;
+    min-width: 226px;
+    max-width: 300px;
     padding: 12px;
     min-height: 300px;
     margin: 8px;
@@ -44,3 +45,37 @@
     font-size: 16px;
     line-height: 35px;    
 }
+
+@media (max-width: 1504px) {
+    .Card {
+        max-height: 200px;
+        /* max-width: 200px; */
+    }   
+}
+@media (max-width: 1378px) {
+    .Card {
+        max-width: 200px;
+    }
+    .cardImage {
+        width: 32px;
+        height: 32px;
+    }
+ .cardImage img {
+    width: 22px;
+ }     
+ .cardHeading{
+    line-height: normal;
+    font-size: 18px;
+ }
+ .Card > ul > li {
+
+    font-size: 15px;
+    line-height: normal;    
+}
+}
+@media (max-width: 474px) {
+    .Card {
+        margin-right: 0px;
+    }
+}
+

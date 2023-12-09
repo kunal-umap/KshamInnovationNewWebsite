@@ -1,6 +1,6 @@
 .MainSec6 {
     position: relative;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 .sec6Head {
     text-align: center;
@@ -26,4 +26,12 @@
     width: 65px;
     margin-top: 30px;
     margin-bottom: 50px;
+}
+@media (max-width:1012px) {
+    .sec6Head {
+        font-size: 5vw;
+        line-height: normal;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
 }
