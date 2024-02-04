@@ -60,18 +60,17 @@
         width: 32px;
         height: 32px;
     }
- .cardImage img {
-    width: 22px;
- }     
- .cardHeading{
-    line-height: normal;
-    font-size: 18px;
- }
- .Card > ul > li {
-
-    font-size: 15px;
-    line-height: normal;    
-}
+    .cardImage img {
+        width: 22px;
+    }     
+    .cardHeading{
+        line-height: normal;
+        font-size: 18px;
+    }
+    .Card > ul > li {
+        font-size: 15px;
+        line-height: normal;    
+    }
 }
 @media (max-width: 474px) {
     .Card {
