@@ -18,16 +18,14 @@ export default function ContactPage() {
         </div>
         <div className="ContactSec">
             <div className="cont1">
-                <a href="" className="cont">
-                    <img src={imgcontact} alt="" /> Call Us
-                </a> &emsp; | &emsp;
-                <a href="" className="cont">+91 9511968231</a>
+                <a href="" className="contr">
+                    <img src={imgcontact} alt="" /> Call Us&emsp;
+                </a>|<a href="" className="contl">&emsp;+91 9373124725</a>
             </div>
             <div className="cont2">
-                <a href="" className="cont">
-                    <img src={imgmail} alt="" /> Email
-                </a> &emsp; |&emsp;
-                <a href="" className="cont"> abc@gmail.com</a>
+                <a href="" className="contr">
+                    <img src={imgmail} alt="" /> Email&emsp;
+                </a>|<a href="" className="contl"> &emsp;kshaminnovation@gmail.com</a>
             </div>
         </div>
         <LocationSec />

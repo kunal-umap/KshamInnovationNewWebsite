@@ -16,8 +16,8 @@ export default function HomePage() {
       <MainSec3/>
       <MainSec4/>
       <MainSec5/>
-      <MainSec6/>
-      <MainSec7/>
+      {/* <MainSec6/> */}
+      {/* <MainSec7/> */}
     </div>
   )
 }

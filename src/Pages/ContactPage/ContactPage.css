@@ -54,16 +54,30 @@
 .cont1 a, .cont2 a{
     text-align: center;
     display: flex;
-    align-items: center;
-    justify-content: center;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 42px;
     line-height: 76px;
     color: #222222;
     text-decoration: none;
 }
-.cont1 a img, .cont2 a img{
-    width: 28px;
+.contr {
+    /* text-align: right; */
+    justify-content: right;
+}
+.contl {
+    justify-content: left;
+    /* text-align: left; */
+}
+.cont1 a img {
+    width: 52px;
+    height: 52px;
     padding: 12px;
-
+}
+.cont2 a img{
+    width: 52px;
+    height: 52px;
+    padding: 12px;
+}
+.contr, .contl {
+    flex: 1;
 }
