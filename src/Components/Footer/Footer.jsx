@@ -20,8 +20,8 @@ export default function Footer() {
         <p className="socialText">
             Follow Us On
         </p>
-        <a href="" className="social"><img src={linkedin} alt="" /></a>
-        <a href="" className="social"><img src={insta} alt="" /></a>
+        <a href="https://www.linkedin.com/company/ksham-innovation/?originalSubdomain=in" className="social"><img src={linkedin} alt="" /></a>
+        <a href="https://www.instagram.com/ksham_innovation/" className="social"><img src={insta} alt="" /></a>
       </div>
     </div>
   )

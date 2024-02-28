@@ -12,23 +12,23 @@ export default function ContactPage() {
         <div className="conHero">
             <div className="back"></div>
             <h2 className="contHead">
-                Get Early Access
+                Contact Us
             </h2>
             <ContactCard />
         </div>
         <div className="ContactSec">
             <div className="cont1">
-                <a href="" className="contr">
+                <a href="" className="contl">
                     <img src={imgcontact} alt="" /> Call Us&emsp;
-                </a>|<a href="" className="contl">&emsp;+91 9373124725</a>
+                </a>|<a href="" className="contr">&emsp;+91 9373124725</a>
             </div>
             <div className="cont2">
-                <a href="" className="contr">
+                <a href="" className="contl">
                     <img src={imgmail} alt="" /> Email&emsp;
-                </a>|<a href="" className="contl"> &emsp;kshaminnovation@gmail.com</a>
+                </a>|<a href="" className="contr"> &emsp;kshaminnovation@gmail.com</a>
             </div>
         </div>
-        <LocationSec />
+        {/* <LocationSec /> */}
     </div>
   )
 }

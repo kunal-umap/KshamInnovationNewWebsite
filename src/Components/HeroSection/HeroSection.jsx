@@ -1,6 +1,7 @@
 import React from 'react'
 import './HeroSection.css'
 import glass from '../../assets/Image/glass.png';
+import { Link } from 'react-router-dom';
 
 export default function HeroSection() {
   return (
@@ -16,7 +17,8 @@ export default function HeroSection() {
             <h2>Blind</h2>
         </div> 
         <div className="space"></div>
-        <a className='heroButton' href="">Get Early Access</a>
+        {/* <a className='heroButton' href="">Get Early Access</a> */}
+        <Link to={'/Contact'} className='heroButton'>Get Early Access</Link>
         <div className="circleHero"></div>
         <img className='glassImage' src={glass} alt="" />
     </div>

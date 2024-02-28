@@ -11,7 +11,7 @@ export default function AboutSec1() {
             </h2>
             <div className="abtCard">
                 <p className="abtCardText">
-                We at Ksham glasses work to provide smart aid glasses for Deaf, Mute and Blind. The Able glasses uses patented bone conduction to enable Deaf to Listen, interpret signs & acts as voice assist tool for the mute, the sensory audio-based information enables the blind to visualize. The open ear design makes able glasses a complete smart glasses device for everyone  
+                We at Ksham Innovation work to provide smart aid glasses for Deaf, Mute and Blind. The Able glasses uses patented bone conduction to enable Deaf to Listen, interpret sign language for mute, the sensory audio-based information enables the blind to visualize. The open ear design makes able glasses a complete smart glasses device for everyone.
                 </p>
             </div>
         </div>

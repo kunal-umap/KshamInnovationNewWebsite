@@ -1,20 +1,22 @@
 .AboutSec3 {
+    background-color: #FFD24D;
     position: relative;
-    min-height: 100vh;
-    padding: 24px;
+    /* min-height: 100vh; */
+    padding: 33px;
     margin: 26px;
     margin-top: 35px;
     margin-bottom: 60px;
+    border-radius: 18px;
 }
 .discAbt {
     font-weight: 700;
     font-size: 56px;
-    line-height: 76px;
+    /* line-height: 76px; */
 }
 .AboutSec3 p {
     font-weight: 400;
     font-size: 27px;
-    line-height: 60px;
+    /* line-height: 60px; */
 }
 .btmAbtCircle {
     position: absolute;
